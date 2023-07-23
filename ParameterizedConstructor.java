@@ -11,7 +11,7 @@ class Inst {
     Inst(int a, int b) {
         x = a;
         y = b;
-    }
+    }   
 
     void dis() {
         System.out.println(x + " " + y);
