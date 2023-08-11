@@ -14,11 +14,9 @@ class Developers extends Designer {
     public void implementation() {
         System.out.println("coding, html, css, javascript");
     }
-
 }
 
 class timi {
-
     public static void main(String[] args) {
         Developers sc = new Developers();
         sc.design();
