@@ -1,4 +1,4 @@
-class A {
+class Apple {
     void add(int... a) // var-args method
     {
         int sum = 0;
@@ -10,7 +10,7 @@ class A {
 
 class Demo {
     public static void main(String[] args) {
-        A r = new A();
+        Apple r = new Apple();
         r.add();
         r.add(10);
         r.add(10, 20);
