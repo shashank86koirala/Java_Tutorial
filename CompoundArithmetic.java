@@ -1,4 +1,4 @@
-class Compund {
+class CompoundArithmetic {
     public static void main(String[] arys) {
         int a;
         a = 10;
