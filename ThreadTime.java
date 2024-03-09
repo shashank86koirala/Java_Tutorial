@@ -10,10 +10,10 @@ class A extends Thread {
     }
 }
 
-class Thread {
+class ThreadTime {
     public static void main(String[] args) {
-        A ref = new A();
-        ref.run();
+        A myObj = new A();
+        myObj.start();
 
         for (int i = 0; i <= 5; i++) {
             System.out.println("this is thread in run method11");
