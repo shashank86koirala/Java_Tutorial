@@ -1,6 +1,6 @@
 import java.lang.*;
 
-class A extends Thread {
+class A implements Runnable {
     public void run() {
         for (int i = 0; i <= 5; i++) {
             System.out.println("this is thread in run method");
