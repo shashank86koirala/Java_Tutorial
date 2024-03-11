@@ -9,7 +9,7 @@ abstract class Shape {
     }
 
     // Abstract method (to be implemented by subclasses)
-    abstract double calculateArea();
+   public abstract double calculateArea();
 
     // Concrete method
     public void displayColor() {
@@ -30,7 +30,7 @@ class Circle extends Shape {
 
     // Implementation of the abstract method
     @Override
-    double calculateArea() {
+    public double calculateArea() {
         return Math.PI * radius * radius;
     }
 }
