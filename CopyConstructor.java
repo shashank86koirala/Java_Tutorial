@@ -1,14 +1,14 @@
 class CopyConstructor {
     public static void main(String[] args) {
-        A obj = new A();
-        A refs = new A(obj);
+        Among obj = new Among();
+        Among refs = new Among(obj);
     }
 }
 
-class A {
+class Among {
     int a, b;
 
-    A() {
+    Among() {
         a = 22;
         b = 62;
 
@@ -16,7 +16,7 @@ class A {
 
     }
 
-    A(A ref) {
+    Among(Among ref) {
         a = ref.a;
         b = ref.b;
 

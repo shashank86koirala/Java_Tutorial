@@ -1,14 +1,14 @@
-class A {
-    A show1() {
+class Aone {
+    Aone show1() {
         System.out.print("showing error guys");
-        return new A();
+        return new Aone();
 
     }
 }
 
-class B extends A {
+class Bone extends Aone {
     @Override
-    B show1() {
+    Bone show1() {
         System.out.print("another error");
         return this;
     }
@@ -16,7 +16,7 @@ class B extends A {
 
 class Covarient {
     public static void main(String[] args) {
-        B ref = new B();
+        Bone ref = new Bone();
         ref.show1();
     }
 }
