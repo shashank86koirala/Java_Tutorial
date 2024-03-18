@@ -1,3 +1,4 @@
+import java.util.Properties;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.RejectedExecutionHandler;
 import java.util.concurrent.ThreadFactory;
@@ -16,6 +17,7 @@ public class ThreadPool {
 
                      threadObj.submit(()->{
                          try{
+                             Properties ne=new Properties();
                          Thread.sleep(5000);
                          }catch(InterruptedException e) {
 
