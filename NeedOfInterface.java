@@ -18,7 +18,7 @@ public void method(AnyClass myObj){
 /**
  * SecondClass
  */
- class SecondClass extends AnyClass {
+ class SecondClass implements AnyClass {
 public void method(){
     System.out.print("this is second method");
 }
@@ -28,13 +28,13 @@ public void method(){
 /**
  * InnerNeedOfInterface
  */
- class ThirdClass extends AnyClass {
+ class ThirdClass implements AnyClass {
 
 public void method(){
     System.out.print("this is third another method using");
 }
 }
 
-abstract class AnyClass{
+interface  AnyClass{
     public abstract void method();
 }
