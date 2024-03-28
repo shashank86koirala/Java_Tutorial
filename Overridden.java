@@ -1,6 +1,7 @@
 class A {
-    void show() {
+  public  String show() {
         System.out.println("show me something");
+        return "hello";
     }
 
     A(int a) {
@@ -15,10 +16,11 @@ class B extends A {
         System.out.println("im herer");
     }
 
-    void show() {
-        // super(10);
+  public  String show() {
+         //super(10);
         super.show();
         System.out.println("im coder");
+        return "adsfa";
     }
 }
 

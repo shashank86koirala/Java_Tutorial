@@ -16,8 +16,9 @@ OverLoading overLoad() {
 }
 
 
-public void overLoad(String var1) {
+public String overLoad(String var1) {
    System.out.println(var1);
+   return "run";
 }
 
 public void overLoad(String var1, int var2) {
